@@ -1,6 +1,6 @@
 'use strict';
 
-const serverError = require('../error-handlers/500.js');
+const errorHandler = require('../error-handlers/500.js');
 
 module.exports = (req, res, next) => {
   let { name } = req.query;
@@ -10,7 +10,7 @@ module.exports = (req, res, next) => {
         name: name,
       });
     } else {
-      serverError();
+      errorHandler();
     }
   } catch (error) {
     next(error.message);
