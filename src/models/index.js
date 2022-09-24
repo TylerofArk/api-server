@@ -7,7 +7,7 @@ const songsSchema = require('./songs.schema');
 const ModelInterface = require('./modelInterface');
 // 'postgres://localhost:5432/api-app'
 
-const DATABASE_URL = process.env.DATABASE_URL === 'test'
+const DATABASE_URL = process.env.NODE_URL === 'test'
   ? 'sqlite:memory'
   : process.env.DATABASE_URL;
 
