@@ -11,7 +11,7 @@ module.exports = (sequelizeDatabase, DataTypes) => {
       allowNull: false,
     },
     album: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: true,
     },
     year: {

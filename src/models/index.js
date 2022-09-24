@@ -31,6 +31,6 @@ SongModel.belongsTo(DogModel);
 
 module.exports = {
   sequelizeDatabase,
-  dogInterface: new ModelInterface(DogModel),
-  dogsInterface: new ModelInterface(SongModel),
+  dogsInterface: new ModelInterface(DogModel),
+  songsInterface: new ModelInterface(SongModel),
 };
