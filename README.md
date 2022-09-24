@@ -4,6 +4,10 @@
 
 ### Code 401d48 Lab 04
 
+### Deployed Server
+
+[Heroku Deployment](https://tlm-api-server.herokuapp.com/)
+
 ### Problem Domain
 
 Build a REST API using Express, by creating a proper series of endpoints that perform CRUD operations on a Postgres SQL Database, using the REST standard
